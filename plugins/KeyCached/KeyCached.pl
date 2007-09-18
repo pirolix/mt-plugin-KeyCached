@@ -2,7 +2,7 @@ package MT::Plugin::KeyCached;
 #   KeyCached - Filesystem based cache of the already built contents
 #           Original Copyright (c) 2007 Piroli YUKARINOMIYA
 #           Open MagicVox.net - http://www.magicvox.net/
-#           @see http://www.magicvox.net/archive/2007/03041744/
+#           @see http://www.magicvox.net/archive/2007/09181641/
 
 use strict;
 use Cache::File;
@@ -21,7 +21,7 @@ my $plugin = new MT::Plugin ({
         version => $VERSION,
         author_name => 'Piroli YUKARINOMIYA',
         author_link => "http://www.magicvox.net/?$MYNAME",
-        doc_link => "http://www.magicvox.net/archive/2007/03041744/?$MYNAME",
+        doc_link => "http://www.magicvox.net/archive/2007/09181641/?$MYNAME",
         description => <<HTMLHEREDOC,
 Filesystem based cache of the already built contents to avoid compiling and building the templates each time.
 Cache-$Cache::VERSION is installed.
